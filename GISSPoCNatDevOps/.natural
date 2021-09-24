@@ -59,6 +59,23 @@
         <privateMode>false</privateMode>
         <Fuser>(0,0)</Fuser>
     </EnvironmentProperties>
+    <NatsecRuntimeProfileLibrary>
+        <NatsecLibrary>
+            <NatsecLibraryName>NTDEVOPS</NatsecLibraryName>
+            <TerminalCommandChar>%</TerminalCommandChar>
+            <TerminalCommandCharSwitch>true</TerminalCommandCharSwitch>
+            <DecimalCharacter>,</DecimalCharacter>
+            <FormatSpecify>true</FormatSpecify>
+            <InputAssignCharacter>=</InputAssignCharacter>
+            <InputDelimiterCharacter>/</InputDelimiterCharacter>
+            <LineSize>80</LineSize>
+            <ProcessingLoopLimit>99999999</ProcessingLoopLimit>
+            <PageSize>23</PageSize>
+            <SpacingFactor>1</SpacingFactor>
+            <StructuredMode>false</StructuredMode>
+            <LibraryPrivateMode>true</LibraryPrivateMode>
+        </NatsecLibrary>
+    </NatsecRuntimeProfileLibrary>
     <AivVariables/>
     <LoggingProperties>
         <WriteBuilderHistoryLogFile>false</WriteBuilderHistoryLogFile>
