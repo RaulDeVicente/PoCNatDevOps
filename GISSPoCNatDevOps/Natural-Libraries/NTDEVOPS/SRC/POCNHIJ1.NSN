@@ -1,0 +1,18 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Subprogram POCNHIJ1.
+/** Suma 2 sumatorios recibidos por parámetro y los multiplica por el multiplicador.
+DEFINE DATA
+PARAMETER USING POCQHIJ1
+LOCAL USING POCQHIJ2
+END-DEFINE
+*
+MOVE BY NAME POCQHIJ1-E TO POCQHIJ2-E
+*
+CALLNAT "POCNHIJ2" POCQHIJ2-E POCQHIJ2-S
+*
+POCQHIJ1-S.RESULTADO := POCQHIJ2-S.RESULTADO * POCQHIJ1-E.MULTIPLICADOR
+*
+END

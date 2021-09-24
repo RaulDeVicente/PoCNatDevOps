@@ -1,0 +1,64 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+* MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 9.1.1 ---
+* INPUT USING MAP 'XXXXXXXX'
+*     M-MULTIPLICADOR M-RESULTADO M-SUMATORIO-1 M-SUMATORIO-2
+DEFINE DATA PARAMETER
+1 M-MULTIPLICADOR (N02,0)
+1 M-RESULTADO (N10,0)
+1 M-SUMATORIO-1 (N05,0)
+1 M-SUMATORIO-2 (N05,0)
+END-DEFINE
+FORMAT PS=024 LS=080 ZP=OFF SG=OFF KD=OFF IP=OFF
+* MAP2: MAP PROFILES *****************************        410***********
+* ,TTAAAMMOO   D I D I N D I D I        ?_)^&:+(                       *
+* 024079CNOMTGA0N0NNUCN             X        01 SYSPROF NR             *
+************************************************************************
+INPUT          (     IP=OFF                                           /*
+                                                                       )
+/
+ 008T 'Prueba de calculadora simple'
+/
+ 008T '-' (028)
+/
+/
+ 009T 'Sumatorio 1:'
+ 030T M-SUMATORIO-1 /*.99U005 N05,0.
+      (AD=MDRT )
+ 036T '+'
+/
+ 009T 'Sumatorio 2:'
+ 030T M-SUMATORIO-2 /*.99U005 N05,0.
+      (AD=MDRT )
+ 036T '*'
+/
+ 009T 'Multiplicador:'
+ 033T M-MULTIPLICADOR /*.99U002 N02,0.
+      (AD=MDRT )
+/
+ 009T '-' (026)
+ 036T '='
+/
+ 009T 'Resultado:'
+ 025T M-RESULTADO /*.99U010 N10,0.
+      (AD=MDRT )
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+* MAP2: VALIDATION *****************************************************
+* MAP2: END OF MAP *****************************************************
+END

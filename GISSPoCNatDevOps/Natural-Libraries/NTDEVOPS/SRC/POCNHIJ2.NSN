@@ -1,0 +1,12 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Subprogram POCNHIJ2.
+/** Suma 2 sumatorios recibidos por parámetro.
+DEFINE DATA
+PARAMETER USING POCQHIJ2
+END-DEFINE
+RESULTADO := SUMATORIO-1 + SUMATORIO-2
+*
+END

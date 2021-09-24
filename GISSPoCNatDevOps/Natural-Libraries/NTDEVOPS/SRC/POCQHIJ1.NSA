@@ -1,0 +1,14 @@
+DEFINE DATA PARAMETER
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Parameter Data Area POCQHIJ1.
+/**
+1 POCQHIJ1-E /* in      /** :in Parámetros de entrada.
+    2 SUMATORIO-1 (N5) /** :in Número de entrada 1.
+    2 SUMATORIO-2 (N5) /** :in Número de entrada 2.
+    2 MULTIPLICADOR (N2) /** :in Multiplicador
+1 POCQHIJ1-S /* out       /** :out Parámetros de salida.
+    2 RESULTADO (N10)
+END-DEFINE
