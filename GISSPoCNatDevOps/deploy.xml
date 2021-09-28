@@ -76,7 +76,7 @@
     <property name="natural.ant.server.secured.environment" value="NO" />
     <property name="natural.ant.project.rootdir" value="." />
     <property name="natural.ant.deploy.stow" value="NO" />
-    <property name="natural.ant.deploy.history.log.level" value="0" />
+    <property name="natural.ant.deploy.history.log.level" value="3" />
     <property name="natural.ant.deploy.upload.sysobjh.library" value="WORKPLAN" />
     <property name="natural.ant.mapping.enable" value="NO" />
     <property name="natural.ant.project.deploy.file.name" value="deploy.xml" />
