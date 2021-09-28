@@ -42,8 +42,8 @@ INPUT          (     IP=OFF                                           /*
  036T '='
 /
  009T 'Resultado:'
- 025T M-RESULTADO /*.99U010 N10,0.
-      (AD=MDRT )
+ 025T M-RESULTADO /*.01U010 N10,0.
+      (AD=ODR )
 /
 /
 /
