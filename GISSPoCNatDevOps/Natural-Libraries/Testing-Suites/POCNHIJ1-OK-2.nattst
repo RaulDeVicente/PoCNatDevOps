@@ -108,7 +108,7 @@
    </void>
   </void>
   <void property="naturalSourcePath">
-   <string>ASSILTGA/POCNHIJ1</string>
+   <string>NTDEVOPS/POCNHIJ1</string>
   </void>
   <void property="validators">
    <void method="add">
@@ -134,7 +134,7 @@
       <array class="int" length="0"/>
      </void>
      <void property="value">
-      <string>24</string>
+      <string>10</string>
      </void>
     </object>
    </void>

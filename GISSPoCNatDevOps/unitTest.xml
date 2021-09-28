@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="default" name="Natural Unit Tests">
+  <target name="init">
+    <property name="broker.id" value="ETB038.99g.giss.ss:10100" />
+    <property name="broker.address" value="RPC/NTSILTGA/CALLNAT" />
+    <property name="broker.rpc.logon" value="true" />
+    <property name="broker.userID" value="SGU2142" />
+    <property name="broker.password" value="SGU2142" />
+    <property name="broker.rpc.userID" value="SGU2142" />
+    <property name="broker.rpc.password" value="SGU2142" />
+    <property name="test.dir" value="C:/Users/99gu2142/git/PoCNatDevOps/GISSPoCNatDevOps" />
+    <property name="NaturalTestingJunitLogger.file" value="log.xml" />
+  </target>
+  <target depends="init" name="default">
+    <!-- Change logtests to "true" if you want test history to be saved -->
+    <testsuite failureProperty="is.unit.test.failure" haltOnFailure="false" logtests="false" name="tests" setProjectSteplibs="true">
+      <connection address="${broker.address}" brokerID="${broker.id}" logon="${broker.rpc.logon}" password="${broker.password}" rpcPassword="${broker.rpc.password}" rpcUserID="${broker.rpc.userID}" userID="${broker.userID}" />
+      <!-- Run all the available unit tests from a folder -->
+      <fileset dir="${test.dir}">
+        <include name="**/*.nattst" />
+        <include name="**/*.bsrvtst" />
+        <include name="**/*.exttst" />
+        <include name="/**/*.seqtst" />
+      </fileset>
+      <!-- Validators (See Eclipse online help <!!!TOPIC!!!> for further details)
+	   BooleanValidator
+	   ByteValidator
+	   DateValidator
+	   DecimalValidator
+	   IntegerValidator
+	   RegexValidator
+	   StringValidator
+	   TimeValidator
+	 -->
+    </testsuite>
+    <!-- Let test fail if there was one failure during testing -->
+    <fail if="is.unit.test.failure" status="1" />
+  </target>
+</project>
+
