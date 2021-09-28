@@ -25,7 +25,7 @@ IF "%eclipseworkspace%"=="" (
 )
 
 IF "%buildfile%"=="" (
-  set buildfile=C:\Users\99gu2142\git\PoCNatDevOps\GISSPoCNatDevOps\build.xml
+  set buildfile=C:\Users\99gu2142\git\PoCNatDevOps\GISSPoCNatDevOps\unitTest.xml
 )
 
 :: The Ant listener can be used when a Junit-like report format of the Testing output is required.
