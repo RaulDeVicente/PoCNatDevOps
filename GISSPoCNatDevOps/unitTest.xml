@@ -9,7 +9,7 @@
     <property name="broker.rpc.userID" value="SGU2142" />
     <property name="broker.rpc.password" value="SGU2142" />
     <property name="test.dir" value="C:\workspaces\DevOpsNat\Jenkins\.jenkins\workspace\DevOps Natural\IC de Natural\GISSPoCNatDevOps\GISSPoCNatDevOps" />
-    <property name="NaturalTestingJunitLogger.file" value="C:/workspaces/DevOpsNat/Jenkins/.jenkins/workspace/DevOps Natural/IC de Natural/logNaturalUnitTest.xml" />
+    <property name="NaturalTestingJunitLogger.file" value="C:/workspaces/DevOpsNat/Jenkins/.jenkins/workspace/DevOps Natural/IC de Natural/NaturalUnitTest/logNaturalUnitTest.xml" />
   </target>
   <target depends="init" name="default">
     <!-- Change logtests to "true" if you want test history to be saved -->
