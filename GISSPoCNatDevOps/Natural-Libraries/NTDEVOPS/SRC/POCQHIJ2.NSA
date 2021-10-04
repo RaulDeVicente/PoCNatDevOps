@@ -3,7 +3,7 @@ DEFINE DATA PARAMETER
 /* :Mode S
 /* :CP
 /* <Natural Source Header
-/** New Parameter Data Area POCQRAUL.
+/** New Parameter Data Area POCQHIJ2.
 /**
 1 POCQHIJ2-E /* in      /** :in Parámetros de entrada.
     2 SUMATORIO-1 (N5) /** :in Número de entrada 1.

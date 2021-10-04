@@ -1,0 +1,13 @@
+DEFINE DATA PARAMETER
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Parameter Data Area POCQHIJ3.
+/**
+1 POCQHIJ3-E /* in      /** :in Parámetros de entrada.
+    2 MINUENDO (N5) /** :in Numero del que queremos sustraer.
+    2 SUSTRAENDO (N5) /** :in Número que queremos sustraer.
+1 POCQHIJ3-S /* out       /** :out Parámetros de salida.
+    2 RESULTADO (N10)
+END-DEFINE
