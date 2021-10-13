@@ -4,12 +4,17 @@
 * <Natural Source Header
 * MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 9.1.1 ---
 * INPUT USING MAP 'XXXXXXXX'
-*     M-MULTIPLICADOR M-RESULTADO M-SUMATORIO-1 M-SUMATORIO-2
+*     M-MINUENDO M-MULTIPLICADOR M-OPERACION M-RESULTADO-RES M-RESULTADO-SUM
+*     M-SUMATORIO-1 M-SUMATORIO-2 M-SUSTRAENDO
 DEFINE DATA PARAMETER
+1 M-MINUENDO (N05,0)
 1 M-MULTIPLICADOR (N02,0)
-1 M-RESULTADO (N10,0)
+1 M-OPERACION (A001)
+1 M-RESULTADO-RES (N10,0)
+1 M-RESULTADO-SUM (N10,0)
 1 M-SUMATORIO-1 (N05,0)
 1 M-SUMATORIO-2 (N05,0)
+1 M-SUSTRAENDO (N05,0)
 END-DEFINE
 FORMAT PS=024 LS=080 ZP=OFF SG=OFF KD=OFF IP=OFF
 * MAP2: MAP PROFILES *****************************        410***********
@@ -19,36 +24,55 @@ FORMAT PS=024 LS=080 ZP=OFF SG=OFF KD=OFF IP=OFF
 INPUT          (     IP=OFF                                           /*
                                                                        )
 /
- 008T 'Prueba de calculadora simple'
+ 003T 'Prueba de calculadora simple'
 /
- 008T '-' (028)
+ 003T '-' (028)
 /
 /
- 009T 'Sumatorio 1:'
- 030T M-SUMATORIO-1 /*.99U005 N05,0.
+ 012T '¿Qué operación desea ejecutar?'
+ 043T M-OPERACION /*.99U001 A001 .
+      (AD=MDT )
+/
+/
+ 005T 'Operacion 1_________________'
+ 045T 'Operacion 2_________________'
+/
+ 005T '-' (028)
+ 045T '-' (028)
+/
+/
+ 005T 'Sumatorio 1:'
+ 026T M-SUMATORIO-1 /*.99U005 N05,0.
       (AD=MDRT )
- 036T '+'
+ 032T '+'
 /
- 009T 'Sumatorio 2:'
- 030T M-SUMATORIO-2 /*.99U005 N05,0.
+ 005T 'Sumatorio 2:'
+ 026T M-SUMATORIO-2 /*.99U005 N05,0.
       (AD=MDRT )
- 036T '*'
+ 032T '*'
+ 045T 'Minuendo:___'
+ 066T M-MINUENDO /*.99U005 N05,0.
+      (AD=MDRT )
+ 072T '-'
 /
- 009T 'Multiplicador:'
- 033T M-MULTIPLICADOR /*.99U002 N02,0.
+ 005T 'Multiplicador:'
+ 029T M-MULTIPLICADOR /*.99U002 N02,0.
+      (AD=MDRT )
+ 045T 'Sustraendo:_'
+ 066T M-SUSTRAENDO /*.99U005 N05,0.
       (AD=MDRT )
 /
- 009T '-' (026)
- 036T '='
+ 005T '-' (026)
+ 032T '='
+ 045T '-' (026)
+ 072T '='
 /
- 009T 'Resultado:'
- 025T M-RESULTADO /*.01U010 N10,0.
+ 005T 'Resultado:'
+ 021T M-RESULTADO-SUM /*.01U010 N10,0.
       (AD=ODR )
-/
-/
-/
-/
-/
+ 045T 'Resultado:'
+ 061T M-RESULTADO-RES /*.01U010 N10,0.
+      (AD=ODR )
 /
 /
 /
