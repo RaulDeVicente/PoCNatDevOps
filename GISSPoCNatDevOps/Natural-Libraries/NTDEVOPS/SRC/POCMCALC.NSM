@@ -24,10 +24,10 @@ FORMAT PS=023 LS=080 ZP=OFF SG=OFF KD=OFF IP=OFF
 ************************************************************************
 INPUT          (     IP=OFF                                           /*
                                                                        )
- 001T 'C.C.D. USUARIO:__'
+ 001T 'C.C.D. USUARIO:'
  019T *USER-NAME /*.01S032 A032 .
       (AD=OI )
- 053T 'SILTGA'
+ 056T 'SIL'
  062T #PROGRAMA /*.01U008 A008 .
       (AD=OD )
  072T *DATE /*.01S008 A008 .
@@ -45,7 +45,6 @@ INPUT          (     IP=OFF                                           /*
  001T '-' (079)
 /
 /
-/
  004T 'Prueba de calculadora simple'
 /
  004T '-' (028)
@@ -56,12 +55,11 @@ INPUT          (     IP=OFF                                           /*
       (AD=MDT )
 /
 /
- 006T 'Operacion 1_________________'
- 046T 'Operacion 2_________________'
+ 006T 'Operacion 1'
+ 046T 'Operacion 2'
 /
  006T '-' (028)
  046T '-' (028)
-/
 /
  006T 'Sumatorio 1:'
  027T M-SUMATORIO-1 /*.99U005 N05,0.
@@ -72,7 +70,7 @@ INPUT          (     IP=OFF                                           /*
  027T M-SUMATORIO-2 /*.99U005 N05,0.
       (AD=MDRT )
  033T '*'
- 046T 'Minuendo:___'
+ 046T 'Minuendo:'
  067T M-MINUENDO /*.99U005 N05,0.
       (AD=MDRT )
  073T '-'
@@ -80,7 +78,7 @@ INPUT          (     IP=OFF                                           /*
  006T 'Multiplicador:'
  030T M-MULTIPLICADOR /*.99U002 N02,0.
       (AD=MDRT )
- 046T 'Sustraendo:_'
+ 046T 'Sustraendo:'
  067T M-SUSTRAENDO /*.99U005 N05,0.
       (AD=MDRT )
 /
@@ -96,7 +94,17 @@ INPUT          (     IP=OFF                                           /*
  062T M-RESULTADO-RES /*.01U010 N10,0.
       (AD=ODR )
 /
+ 006T '-' (028)
+ 046T '-' (028)
 /
+ 006T 'Si la suma de los sumatorios'
+ 046T 'Si el resultado es mayor de'
+/
+ 006T 'es superior a 50, accede a'
+ 046T '10, accede a la BBDD con un'
+/
+ 006T 'la BBDD con un READ.'
+ 046T 'FIND.'
 /
 /
  015T 'PF2'(I)
