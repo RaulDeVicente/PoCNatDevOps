@@ -4,9 +4,10 @@
 * <Natural Source Header
 * MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 9.1.1 ---
 * INPUT USING MAP 'XXXXXXXX'
-*     M-MINUENDO M-MULTIPLICADOR M-OPERACION M-RESULTADO-RES M-RESULTADO-SUM
-*     M-SUMATORIO-1 M-SUMATORIO-2 M-SUSTRAENDO
+*     #PROGRAMA M-MINUENDO M-MULTIPLICADOR M-OPERACION M-RESULTADO-RES
+*     M-RESULTADO-SUM M-SUMATORIO-1 M-SUMATORIO-2 M-SUSTRAENDO
 DEFINE DATA PARAMETER
+1 #PROGRAMA (A008)
 1 M-MINUENDO (N05,0)
 1 M-MULTIPLICADOR (N02,0)
 1 M-OPERACION (A001)
@@ -16,72 +17,96 @@ DEFINE DATA PARAMETER
 1 M-SUMATORIO-2 (N05,0)
 1 M-SUSTRAENDO (N05,0)
 END-DEFINE
-FORMAT PS=024 LS=080 ZP=OFF SG=OFF KD=OFF IP=OFF
+FORMAT PS=023 LS=080 ZP=OFF SG=OFF KD=OFF IP=OFF
 * MAP2: MAP PROFILES *****************************        410***********
 * ,TTAAAMMOO   D I D I N D I D I        ?_)^&:+(                       *
-* 024079CNOMTGA0N0NNUCN             X        01 SYSPROF NR             *
+* 023079CNOMTGA0N0NNUCN             X        01 SYSPROF NR             *
 ************************************************************************
 INPUT          (     IP=OFF                                           /*
                                                                        )
+ 001T 'C.C.D. USUARIO:__'
+ 019T *USER-NAME /*.01S032 A032 .
+      (AD=OI )
+ 053T 'SILTGA'
+ 062T #PROGRAMA /*.01U008 A008 .
+      (AD=OD )
+ 072T *DATE /*.01S008 A008 .
+      (AD=OD )
 /
- 003T 'Prueba de calculadora simple'
+ 001T 'G.I.S.S.'
+ 011T '*'(I)
+ 023T 'PoC de DevOps con Natural'(I)
+ 058T '*'(I)
+ 062T *PROGRAM /*.01S008 A008 .
+      (AD=OD )
+ 072T *TIME /*.01S008 A010 .
+      (AD=OD AL=008 )
 /
- 003T '-' (028)
+ 001T '-' (079)
 /
 /
- 012T '¿Qué operación desea ejecutar?'
- 043T M-OPERACION /*.99U001 A001 .
+/
+ 004T 'Prueba de calculadora simple'
+/
+ 004T '-' (028)
+/
+/
+ 013T '¿Qué operación desea ejecutar?'
+ 044T M-OPERACION /*.99U001 A001 .
       (AD=MDT )
 /
 /
- 005T 'Operacion 1_________________'
- 045T 'Operacion 2_________________'
+ 006T 'Operacion 1_________________'
+ 046T 'Operacion 2_________________'
 /
- 005T '-' (028)
- 045T '-' (028)
+ 006T '-' (028)
+ 046T '-' (028)
 /
 /
- 005T 'Sumatorio 1:'
- 026T M-SUMATORIO-1 /*.99U005 N05,0.
+ 006T 'Sumatorio 1:'
+ 027T M-SUMATORIO-1 /*.99U005 N05,0.
       (AD=MDRT )
- 032T '+'
+ 033T '+'
 /
- 005T 'Sumatorio 2:'
- 026T M-SUMATORIO-2 /*.99U005 N05,0.
+ 006T 'Sumatorio 2:'
+ 027T M-SUMATORIO-2 /*.99U005 N05,0.
       (AD=MDRT )
- 032T '*'
- 045T 'Minuendo:___'
- 066T M-MINUENDO /*.99U005 N05,0.
+ 033T '*'
+ 046T 'Minuendo:___'
+ 067T M-MINUENDO /*.99U005 N05,0.
       (AD=MDRT )
- 072T '-'
+ 073T '-'
 /
- 005T 'Multiplicador:'
- 029T M-MULTIPLICADOR /*.99U002 N02,0.
+ 006T 'Multiplicador:'
+ 030T M-MULTIPLICADOR /*.99U002 N02,0.
       (AD=MDRT )
- 045T 'Sustraendo:_'
- 066T M-SUSTRAENDO /*.99U005 N05,0.
+ 046T 'Sustraendo:_'
+ 067T M-SUSTRAENDO /*.99U005 N05,0.
       (AD=MDRT )
 /
- 005T '-' (026)
- 032T '='
- 045T '-' (026)
- 072T '='
+ 006T '-' (026)
+ 033T '='
+ 046T '-' (026)
+ 073T '='
 /
- 005T 'Resultado:'
- 021T M-RESULTADO-SUM /*.01U010 N10,0.
+ 006T 'Resultado:'
+ 022T M-RESULTADO-SUM /*.01U010 N10,0.
       (AD=ODR )
- 045T 'Resultado:'
- 061T M-RESULTADO-RES /*.01U010 N10,0.
+ 046T 'Resultado:'
+ 062T M-RESULTADO-RES /*.01U010 N10,0.
       (AD=ODR )
 /
 /
 /
 /
-/
-/
-/
-/
-/
+ 015T 'PF2'(I)
+ 019T 'MPRAL'
+ 027T 'PF3'(I)
+ 031T 'MANT'
+ 038T 'PF4'(I)
+ 043T 'TRANS'
+ 064T 'INTRO'(I)
+ 071T 'CONT'
 /
 * MAP2: VALIDATION *****************************************************
 * MAP2: END OF MAP *****************************************************
