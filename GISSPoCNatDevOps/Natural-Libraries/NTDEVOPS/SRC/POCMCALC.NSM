@@ -103,8 +103,6 @@ INPUT          (     IP=OFF                                           /*
  019T 'MPRAL'
  027T 'PF3'(I)
  031T 'MANT'
- 038T 'PF4'(I)
- 043T 'TRANS'
  064T 'INTRO'(I)
  071T 'CONT'
 /
