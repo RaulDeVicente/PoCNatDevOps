@@ -48,7 +48,7 @@
       <array class="int" length="0"/>
      </void>
      <void property="value">
-      <string>2</string>
+      <string>30</string>
      </void>
     </object>
    </void>
@@ -75,7 +75,7 @@
       <array class="int" length="0"/>
      </void>
      <void property="value">
-      <string>3</string>
+      <string>40</string>
      </void>
     </object>
    </void>
@@ -134,7 +134,7 @@
       <array class="int" length="0"/>
      </void>
      <void property="value">
-      <string>10</string>
+      <string>140</string>
      </void>
     </object>
    </void>
