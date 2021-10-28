@@ -75,7 +75,7 @@
     <property name="natural.ant.project.name" value="GISSPoCNatDevOps" />
     <property name="natural.ant.server.secured.environment" value="NO" />
     <property name="natural.ant.project.rootdir" value="." />
-    <property name="natural.ant.deploy.stow" value="NO" />
+    <property name="natural.ant.deploy.stow" value="YES" />
     <property name="natural.ant.deploy.history.log.level" value="3" />
     <property name="natural.ant.deploy.upload.sysobjh.library" value="WORKPLAN" />
     <property name="natural.ant.mapping.enable" value="NO" />
@@ -88,7 +88,7 @@
     <property name="natural.ant.project.steplibs" value="0;" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
     <property name="natural.ant.repository.module" value="GISSPoCNatDevOps" />
-    <property name="natural.ant.deploy.catalog" value="YES" />
+    <property name="natural.ant.deploy.catalog" value="NO" />
     <property name="natural.ant.library.steplibs" value="NTDEVOPS;1;SYSTEM;!;!" />
     <property name="natural.ant.server.environment" value="10.99.243.5-10113" />
     <property name="natural.ant.server.password" value="rUaMJpkrTxM=" />
