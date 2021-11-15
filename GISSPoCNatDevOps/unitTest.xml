@@ -11,11 +11,11 @@
   	<!--     <property name="test.dir" value="C:\workspaces\DevOpsNat\Jenkins\.jenkins\workspace\DevOps Natural\IC de Natural\GISSPoCNatDevOps\GISSPoCNatDevOps" />
   	-->
     <property name="test.dir" value="C:/Users/99gu2142/git/PoCNatDevOps/GISSPoCNatDevOps" />
-    <property name="NaturalTestingJunitLogger.file" value="C:/workspaces/DevOpsNat/Jenkins/.jenkins/workspace/DevOps Natural/IC de Natural/NaturalUnitTest/logNaturalUnitTest.xml" />
+    <property name="NaturalTestingJunitLogger.file" value="C:/workspaces/DevOpsNat/Jenkins/.jenkins/workspace/DevOps Natural/IC de Natural/logNaturalUnitTest.xml" />
   </target>
   <target depends="init" name="default">
     <!-- Change logtests to "true" if you want test history to be saved -->
-    <testsuite failureProperty="is.unit.test.failure" haltOnFailure="false" logtests="false" name="tests" setProjectSteplibs="true">
+    <testsuite failureProperty="is.unit.test.failure" haltOnFailure="false" logtests="true" name="tests" setProjectSteplibs="true">
       <connection address="${broker.address}" brokerID="${broker.id}" logon="${broker.rpc.logon}" password="${broker.password}" rpcPassword="${broker.rpc.password}" rpcUserID="${broker.rpc.userID}" userID="${broker.userID}" />
       <!-- Run all the available unit tests from a folder -->
       <fileset dir="${test.dir}">
