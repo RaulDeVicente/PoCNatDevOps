@@ -59,7 +59,7 @@
     <property name="natural.ant.deploy.retain.unchanged.sources" value="YES" />
     <property name="natural.ant.deploy.full" value="NO" />
     <property name="natural.ant.generate.old.data.area.format" value="NO" />
-    <property name="natural.ant.library.steplib.nsv" value="NTDEVOPS;SYSTEM!;!" />
+    <property name="natural.ant.library.steplib.nsv" value="ACSILTGA;SYSTEM!;!ASSILTGA;SYSTEM!;!NTDEVOPS;SYSTEM!;!" />
     <property name="natural.ant.source.all.types" value="YES" />
     <property name="natural.ant.deploy.upload.sysobjh" value="NO" />
     <property name="natural.ant.repository.url" value="https://github.com/RaulDeVicente/PoCNatDevOps.git" />
@@ -83,15 +83,15 @@
     <property name="natural.ant.deploy.delete" value="NO" />
     <property name="natural.ant.server.hostname" value="10.99.243.5" />
     <property name="natural.ant.short.log" value="NO" />
-    <property name="natural.ant.mapping.string" value="NTDEVOPS=NTDEVOPS;" />
+    <property name="natural.ant.mapping.string" value="NTDEVOPS=NTDEVOPS;ACSILTGA=ACSILTGA;ASSILTGA=ASSILTGA;" />
     <property name="natural.ant.failonerror" value="NO" />
     <property name="natural.ant.project.steplibs" value="0;" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
     <property name="natural.ant.repository.module" value="GISSPoCNatDevOps" />
     <property name="natural.ant.deploy.catalog" value="NO" />
-    <property name="natural.ant.library.steplibs" value="NTDEVOPS;1;SYSTEM;!;!" />
+    <property name="natural.ant.library.steplibs" value="ACSILTGA;4;ASSILTGA;CSSILSYS;SYSTEM;SYSEXT;!;!ASSILTGA;5;CSSILSYS;SYSTEM;SYSIDL;SYSRPC;SYSLIBS;!;!NTDEVOPS;1;SYSTEM;!;!" />
     <property name="natural.ant.server.environment" value="10.99.243.5-10113" />
-    <property name="natural.ant.server.password" value="rUaMJpkrTxM=" />
+    <property name="natural.ant.server.password" value="5QX+92YuP2MlU4KS4v7CzA==" />
     <property name="natural.ant.server.username" value="SGU2142" />
     <property name="natural.ant.project.steplib.nsv" value="" />
     <!-- ### ANT_DEPLOY_PROPERTIES_END ###   -->
