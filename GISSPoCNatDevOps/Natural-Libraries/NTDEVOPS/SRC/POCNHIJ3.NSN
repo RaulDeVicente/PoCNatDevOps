@@ -21,4 +21,6 @@ IF RESULTADO > 11
   END-FIND
 END-IF
 *
+** Añadido comentario para que cambie el código.
+*
 END
