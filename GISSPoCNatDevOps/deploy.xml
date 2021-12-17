@@ -91,7 +91,7 @@
     <property name="natural.ant.deploy.catalog" value="NO" />
     <property name="natural.ant.library.steplibs" value="ACSILTGA;4;ASSILTGA;CSSILSYS;SYSTEM;SYSEXT;!;!ASSILTGA;5;CSSILSYS;SYSTEM;SYSIDL;SYSRPC;SYSLIBS;!;!NTDEVOPS;1;SYSTEM;!;!" />
     <property name="natural.ant.server.environment" value="10.99.243.5-10113" />
-    <property name="natural.ant.server.password" value="5QX+92YuP2MlU4KS4v7CzA==" />
+    <property name="natural.ant.server.password" value="rUaMJpkrTxM=" />
     <property name="natural.ant.server.username" value="SGU2142" />
     <property name="natural.ant.project.steplib.nsv" value="" />
     <!-- ### ANT_DEPLOY_PROPERTIES_END ###   -->
