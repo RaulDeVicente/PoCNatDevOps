@@ -1,0 +1,13 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program POCPCALO.
+DEFINE DATA LOCAL
+END-DEFINE
+*
+** Nuevo módulo para versiones.
+*
+IGNORE
+*
+END
