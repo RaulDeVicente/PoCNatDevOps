@@ -15,6 +15,6 @@ CALLNAT "POCNHIJ2" POCQHIJ2-E POCQHIJ2-S
 *
 POCQHIJ1-S.RESULTADO := POCQHIJ2-S.RESULTADO * POCQHIJ1-E.MULTIPLICADOR
 *
-** Añadido comentario para que cambie el código.
+** Añadido comentario para que cambie el código. +
 *
 END
