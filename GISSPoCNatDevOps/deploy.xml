@@ -69,7 +69,7 @@
     <property name="natural.ant.reference.string" value="" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.ant.deploy.upload" value="YES" />
-    <property name="natural.ant.deploy.scratch" value="NO" />
+    <property name="natural.ant.deploy.scratch" value="YES" />
     <property name="natural.ant.repository.type" value="GIT" />
     <property name="natural.ant.server.port" value="10113" />
     <property name="natural.ant.project.name" value="GISSPoCNatDevOps" />
@@ -84,7 +84,7 @@
     <property name="natural.ant.server.hostname" value="10.99.243.5" />
     <property name="natural.ant.short.log" value="NO" />
     <property name="natural.ant.mapping.string" value="NTDEVOPS=NTDEVOPS;ACSILTGA=ACSILTGA;ASSILTGA=ASSILTGA;" />
-    <property name="natural.ant.failonerror" value="NO" />
+    <property name="natural.ant.failonerror" value="YES" />
     <property name="natural.ant.project.steplibs" value="0;" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
     <property name="natural.ant.repository.module" value="GISSPoCNatDevOps" />
