@@ -65,7 +65,11 @@
     <property name="natural.ant.server.password" value="rUaMJpkrTxM=" />
 -->
   	<property name="natural.ant.server.username" value="SILDBA" />
+  	<property name="natural.ant.server.password" value="pepito" />
+  	<!-- 
   	<property name="natural.ant.server.password" value="zukAq+ol7Kc=" />
+  	-->
+
   	<property name="natural.ant.short.log" value="NO" />
     <property name="natural.ant.deploy.upload.sysobjh" value="NO" />
     <property name="natural.ant.project.password.encryption" value="YES" />
