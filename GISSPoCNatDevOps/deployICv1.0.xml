@@ -81,7 +81,11 @@
     <property name="natural.ant.server.environment" value="10.99.243.5-10112" />
     <property name="natural.ant.source.type.selection" value="2736127" />
     <property name="natural.ant.library.steplibs" value="ACSILTGA;4;ASSILTGA;CSSILSYS;SYSTEM;SYSEXT;!;!ASSILTGA;5;CSSILSYS;SYSTEM;SYSIDL;SYSRPC;SYSLIBS;!;!NTDEVOPS;1;SYSTEM;!;!" />
-    <property name="natural.ant.server.parameters" value="STACK=(LOGON AOSILTGA), PROFILE=FDAXML, SYS=DS80, GPGEN=(COVERAGE=ON), COVERAGE=(ACTIVE=ON,RESLIB=NTDEVOPS,RESNAME=CODECOVE)" />
+ 
+  	<property name="natural.ant.server.parameters" value="STACK=(LOGON AOSILTGA), PROFILE=FDAXML, SYS=DS80, GPGEN=(COVERAGE=ON), COVERAGE=(ACTIVE=ON,RESLIB=NTDEVOPS,RESNAME=CODECOVE)" />
+<!-- 
+  	<property name="natural.ant.server.parameters" value="STACK=(LOGON AOSILTGA), PROFILE=ONEALMAF, SYS=DS80, GPGEN=(COVERAGE=ON), COVERAGE=(ACTIVE=ON,RESLIB=NTDEVOPS,RESNAME=CODECOVE)" />
+-->
     <property name="natural.ant.mapping.enable" value="NO" />
     <property name="natural.ant.project.rootdir" value="." />
     <property name="natural.ant.truststore.password" value="" />
