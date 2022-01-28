@@ -87,7 +87,6 @@
 <!-- 
   	<property name="natural.ant.server.parameters" value="STACK=(LOGON NTDEVOPS), PROFILE=FDAXML, SYS=DS80" />
   	<property name="natural.ant.server.parameters" value="STACK=(LOGON AOSILTGA), PROFILE=ONEALMAF, SYS=DS80, GPGEN=(COVERAGE=ON), COVERAGE=(ACTIVE=ON,RESLIB=NTDEVOPS,RESNAME=CODECOVE)" />
-  	<property name="natural.ant.server.parameters" value="STACK=(LOGON AOSILTGA), PROFILE=ONEALMAF, SYS=DS80, GPGEN=(COVERAGE=ON), COVERAGE=(ACTIVE=ON,RESLIB=NTDEVOPS,RESNAME=CODECOVE)" />
 -->
     <property name="natural.ant.mapping.enable" value="NO" />
     <property name="natural.ant.project.rootdir" value="." />
