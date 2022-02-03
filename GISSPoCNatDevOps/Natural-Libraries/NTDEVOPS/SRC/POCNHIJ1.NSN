@@ -13,12 +13,13 @@ MOVE BY NAME POCQHIJ1-E TO POCQHIJ2-E
 *
 CALLNAT "POCNHIJ2" POCQHIJ2-E POCQHIJ2-S
 *
-POCQHIJ1-S.RESULTADO := POCQHIJ2-S.RESULTADO * POCQHIJ1-E.MULTIPLICADOR
+POCQHIJ1-S.RESULTADO := POCQHIJ2-S.RESULTADO * POCQHIJ1-E.MULTIPLICADOR + 1
 *
 ** Añadido comentario para que cambie el código. +
 ** 2022-01-14 Añadido comentario para que cambie el código. +
 ** 2022-01-21 Añadido comentario para que cambie el código. +
 ** 2022-01-21 Añadido comentario para que cambie el código. ++
 ** 2022-01-27 Añadido comentario para que cambie el código. ++
+** 2022-02-01 Añadido comentario para que cambie el código. ++
 *
 END
