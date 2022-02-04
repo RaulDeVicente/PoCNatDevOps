@@ -22,5 +22,6 @@ POCQHIJ1-S.RESULTADO := POCQHIJ2-S.RESULTADO * POCQHIJ1-E.MULTIPLICADOR + 1
 ** 2022-01-27 Añadido comentario para que cambie el código. ++
 ** 2022-02-01 Añadido comentario para que cambie el código. ++
 ** 2022-02-04 Añadido comentario para que cambie el código. ++
+** 2022-02-04 Añadido comentario para que cambie el código. +++
 *
 END
