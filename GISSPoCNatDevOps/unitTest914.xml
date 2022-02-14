@@ -35,7 +35,7 @@
     <property name="natural.testing.ant.exxuid" value="SGU2142" />
     <property name="natural.ant.project.password.encryption" value="YES" />
     <property name="natural.ant.repository.url" value="https://github.com/RaulDeVicente/PoCNatDevOps.git" />
-    <property name="NaturalTestingJunitLogger.file" value="logUnitTest.xml" />
+    <property name="NaturalTestingJunitLogger.file" value="./junit/logUnitTest.xml" />
     <property name="natural.ant.repository.module" value="GISSPoCNatDevOps" />
     <property name="natural.ant.repository.version" value="main" />
     <property name="natural.testing.ant.srvaddr" value="RPC/NTSILTGA/CALLNAT" />
