@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.13" class="java.beans.XMLDecoder">
+ <object class="com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest" id="NaturalTest0">
+  <void property="connection">
+   <void property="ID">
+    <string>ETB038.99g.giss.ss:10100</string>
+   </void>
+   <void property="RPCName">
+    <string>Natural RPC Server (Proxys)</string>
+   </void>
+   <void property="encryptedPassword">
+    <string>YbPA4c3uyogV3G7n1+pwrw</string>
+   </void>
+   <void property="encryptedRpcPassword">
+    <string>YbPA4c3uyogV3G7n1+pwrw</string>
+   </void>
+   <void property="rpcUserID">
+    <string>SGU2142</string>
+   </void>
+   <void property="server">
+    <string>RPC/NTSILTGA/CALLNAT</string>
+   </void>
+   <void property="settingsSectionKey">
+    <string>com.softwareag.natural.unittest.core.broker.BrokerSettings@GISSPoCNatDevOps</string>
+   </void>
+   <void property="userID">
+    <string>SGU2142</string>
+   </void>
+  </void>
+  <void property="endTimestamp">
+   <object class="java.util.Date">
+    <long>1644823704261</long>
+   </object>
+  </void>
+  <void property="input">
+   <void method="add">
+    <object class="com.softwareag.natural.unittest.core.natural.model.TestField" id="TestField0">
+     <void id="booleanArray0" property="VDimensions"/>
+     <void property="VDimensions">
+      <object idref="booleanArray0"/>
+     </void>
+     <void id="intArray0" property="actualDimensions"/>
+     <void property="actualDimensions">
+      <object idref="intArray0"/>
+     </void>
+     <void property="fieldLength">
+      <int>5</int>
+     </void>
+     <void property="fieldType">
+      <char>N</char>
+     </void>
+     <void property="fullName">
+      <string>POCQHIJ1-E.SUMATORIO-1</string>
+     </void>
+     <void id="Integer0" property="decimals"/>
+     <void property="index">
+      <array class="int" length="0"/>
+     </void>
+     <void property="value">
+      <string>2</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.softwareag.natural.unittest.core.natural.model.TestField" id="TestField1">
+     <void id="booleanArray1" property="VDimensions"/>
+     <void property="VDimensions">
+      <object idref="booleanArray1"/>
+     </void>
+     <void id="intArray1" property="actualDimensions"/>
+     <void property="actualDimensions">
+      <object idref="intArray1"/>
+     </void>
+     <void property="fieldLength">
+      <int>5</int>
+     </void>
+     <void property="fieldType">
+      <char>N</char>
+     </void>
+     <void property="fullName">
+      <string>POCQHIJ1-E.SUMATORIO-2</string>
+     </void>
+     <void property="index">
+      <array class="int" length="0"/>
+     </void>
+     <void property="value">
+      <string>3</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.softwareag.natural.unittest.core.natural.model.TestField" id="TestField2">
+     <void id="booleanArray2" property="VDimensions"/>
+     <void property="VDimensions">
+      <object idref="booleanArray2"/>
+     </void>
+     <void id="intArray2" property="actualDimensions"/>
+     <void property="actualDimensions">
+      <object idref="intArray2"/>
+     </void>
+     <void property="fieldLength">
+      <int>2</int>
+     </void>
+     <void property="fieldType">
+      <char>N</char>
+     </void>
+     <void property="fullName">
+      <string>POCQHIJ1-E.MULTIPLICADOR</string>
+     </void>
+     <void property="index">
+      <array class="int" length="0"/>
+     </void>
+     <void property="value">
+      <string>2</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="naturalSourcePath">
+   <string>NTDEVOPS/POCNHIJ1</string>
+  </void>
+  <void property="path">
+   <string>C:/Users/99gu2142/git/PoCNatDevOps/GISSPoCNatDevOps/Testing-Suites/POCNHIJ1-1.nattst</string>
+  </void>
+  <void property="projectName">
+   <string>GISSPoCNatDevOps</string>
+  </void>
+  <void property="rootStructure">
+   <object class="com.softwareag.natural.unittest.core.marshall.RootStructure">
+    <void property="root">
+     <object class="com.softwareag.entirex.idl.IDLRoot" id="IDLRoot0">
+      <void property="libraries">
+       <void method="add">
+        <object class="com.softwareag.entirex.idl.IDLLibrary">
+         <void property="idlName">
+          <string>NTDEVOPS</string>
+         </void>
+         <void property="parent">
+          <object idref="IDLRoot0"/>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="startTimestamp">
+   <object class="java.util.Date">
+    <long>1644823704025</long>
+   </object>
+  </void>
+  <void property="state">
+   <void property="status">
+    <object class="java.lang.Enum" method="valueOf">
+     <class>com.softwareag.natural.unittest.core.framework.Status</class>
+     <string>FAILED</string>
+    </object>
+   </void>
+  </void>
+  <void property="userID">
+   <string>99gu2142</string>
+  </void>
+  <void property="validators">
+   <void method="add">
+    <object class="com.softwareag.natural.unittest.core.validators.IntegerValidator" id="IntegerValidator0">
+     <void id="booleanArray3" property="VDimensions"/>
+     <void property="VDimensions">
+      <object idref="booleanArray3"/>
+     </void>
+     <void id="intArray3" property="actualDimensions"/>
+     <void property="actualDimensions">
+      <object idref="intArray3"/>
+     </void>
+     <void property="fieldLength">
+      <int>10</int>
+     </void>
+     <void property="fieldType">
+      <char>N</char>
+     </void>
+     <void property="fullName">
+      <string>POCQHIJ1-S.RESULTADO</string>
+     </void>
+     <void property="index">
+      <array class="int" length="0"/>
+     </void>
+     <void property="value">
+      <string>10</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
