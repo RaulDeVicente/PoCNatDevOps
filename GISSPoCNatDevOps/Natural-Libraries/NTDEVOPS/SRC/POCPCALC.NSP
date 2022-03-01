@@ -37,6 +37,7 @@ SET KEY PF2 PF3
 MOVE *PROGRAM TO #PROGRAMA
 ** Cambio para que suba el programa.
 * Un cambio más.
+* Un cambio más otro..
 *
 REPEAT
   INPUT WITH TEXT *#ERROR, #TEXTO-ERROR MARK #POS
