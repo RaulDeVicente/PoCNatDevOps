@@ -27,11 +27,6 @@
     <string>SGU2142</string>
    </void>
   </void>
-  <void property="endTimestamp">
-   <object class="java.util.Date">
-    <long>1644823704261</long>
-   </object>
-  </void>
   <void property="input">
    <void method="add">
     <object class="com.softwareag.natural.unittest.core.natural.model.TestField" id="TestField0">
@@ -52,12 +47,11 @@
      <void property="fullName">
       <string>POCQHIJ1-E.SUMATORIO-1</string>
      </void>
-     <void id="Integer0" property="decimals"/>
      <void property="index">
       <array class="int" length="0"/>
      </void>
      <void property="value">
-      <string>2</string>
+      <string>3</string>
      </void>
     </object>
    </void>
@@ -119,48 +113,6 @@
   <void property="naturalSourcePath">
    <string>NTDEVOPS/POCNHIJ1</string>
   </void>
-  <void property="path">
-   <string>C:/Users/99gu2142/git/PoCNatDevOps/GISSPoCNatDevOps/Testing-Suites/POCNHIJ1-1.nattst</string>
-  </void>
-  <void property="projectName">
-   <string>GISSPoCNatDevOps</string>
-  </void>
-  <void property="rootStructure">
-   <object class="com.softwareag.natural.unittest.core.marshall.RootStructure">
-    <void property="root">
-     <object class="com.softwareag.entirex.idl.IDLRoot" id="IDLRoot0">
-      <void property="libraries">
-       <void method="add">
-        <object class="com.softwareag.entirex.idl.IDLLibrary">
-         <void property="idlName">
-          <string>NTDEVOPS</string>
-         </void>
-         <void property="parent">
-          <object idref="IDLRoot0"/>
-         </void>
-        </object>
-       </void>
-      </void>
-     </object>
-    </void>
-   </object>
-  </void>
-  <void property="startTimestamp">
-   <object class="java.util.Date">
-    <long>1644823704025</long>
-   </object>
-  </void>
-  <void property="state">
-   <void property="status">
-    <object class="java.lang.Enum" method="valueOf">
-     <class>com.softwareag.natural.unittest.core.framework.Status</class>
-     <string>FAILED</string>
-    </object>
-   </void>
-  </void>
-  <void property="userID">
-   <string>99gu2142</string>
-  </void>
   <void property="validators">
    <void method="add">
     <object class="com.softwareag.natural.unittest.core.validators.IntegerValidator" id="IntegerValidator0">
@@ -185,7 +137,7 @@
       <array class="int" length="0"/>
      </void>
      <void property="value">
-      <string>10</string>
+      <string>12</string>
      </void>
     </object>
    </void>
