@@ -60,8 +60,14 @@
     <property name="natural.ant.deploy.upload.sysobjh.library" value="WORKPLAN" />
     <property name="natural.ant.server.port" value="10112" />
     <property name="natural.ant.project.steplib.nsv" value="" />
+<!--
     <property name="natural.ant.server.username" value="SILONE" />
-    <property name="natural.ant.short.log" value="NO" />
+    <property name="natural.ant.server.password" value="kMmTIt9M4OU=" />
+-->
+    <property name="natural.ant.server.username" value="SILDBA" />
+    <property name="natural.ant.server.password" value="zukAq+ol7Kc=" />
+
+  	<property name="natural.ant.short.log" value="NO" />
     <property name="natural.ant.deploy.upload.sysobjh" value="NO" />
     <property name="natural.ant.project.password.encryption" value="YES" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
@@ -75,7 +81,6 @@
     <property name="natural.ant.deploy.delete" value="NO" />
     <property name="natural.ant.server.environment" value="10.99.243.5-10112" />
     <property name="natural.ant.source.type.selection" value="2736127" />
-    <property name="natural.ant.server.password" value="kMmTIt9M4OU=" />
     <property name="natural.ant.library.steplibs" value="ACSILTGA;4;ASSILTGA;CSSILSYS;SYSTEM;SYSEXT;!;!ASSILTGA;5;CSSILSYS;SYSTEM;SYSIDL;SYSRPC;SYSLIBS;!;!NTDEVOPS;1;SYSTEM;!;!" />
     <property name="natural.ant.server.parameters" value="STACK=(LOGON NTDEVOPS), PROFILE=FDAXML, SYS=DS80, GPGEN=(COVERAGE=ON), COVERAGE=(ACTIVE=ON,RESLIB=NTDEVOPS,RESNAME=CODECOVE)" />
     <property name="natural.ant.mapping.enable" value="NO" />
