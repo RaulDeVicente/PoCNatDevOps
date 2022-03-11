@@ -55,11 +55,52 @@
     <EnvironmentProperties>
         <SteplibNSV/>
         <SteplibExtensions>0;</SteplibExtensions>
-        <LibrariesSteplibs/>
+        <LibrariesSteplibs>
+            <LibrarySteplib>
+                <LibrarySteplibName>ACSILTGA</LibrarySteplibName>
+                <LibrarySteplibNSV>SYSTEM</LibrarySteplibNSV>
+                <LibrarySteplibExtensions>4;ASSILTGA[-1,-1];CSSILSYS[-1,-1];SYSTEM[-1,-1];SYSEXT[-1,-1];</LibrarySteplibExtensions>
+            </LibrarySteplib>
+            <LibrarySteplib>
+                <LibrarySteplibName>NTDEVOPS</LibrarySteplibName>
+                <LibrarySteplibNSV>SYSTEM</LibrarySteplibNSV>
+                <LibrarySteplibExtensions>1;SYSTEM[-1,-1];</LibrarySteplibExtensions>
+            </LibrarySteplib>
+        </LibrariesSteplibs>
         <privateMode>false</privateMode>
         <Fuser>(0,0)</Fuser>
     </EnvironmentProperties>
     <NatsecRuntimeProfileLibrary>
+        <NatsecLibrary>
+            <NatsecLibraryName>ACSILTGA</NatsecLibraryName>
+            <TerminalCommandChar>%</TerminalCommandChar>
+            <TerminalCommandCharSwitch>true</TerminalCommandCharSwitch>
+            <DecimalCharacter>,</DecimalCharacter>
+            <FormatSpecify>true</FormatSpecify>
+            <InputAssignCharacter>=</InputAssignCharacter>
+            <InputDelimiterCharacter>/</InputDelimiterCharacter>
+            <LineSize>80</LineSize>
+            <ProcessingLoopLimit>99999999</ProcessingLoopLimit>
+            <PageSize>23</PageSize>
+            <SpacingFactor>1</SpacingFactor>
+            <StructuredMode>false</StructuredMode>
+            <LibraryPrivateMode>false</LibraryPrivateMode>
+        </NatsecLibrary>
+        <NatsecLibrary>
+            <NatsecLibraryName>ASSILTGA</NatsecLibraryName>
+            <TerminalCommandChar>%</TerminalCommandChar>
+            <TerminalCommandCharSwitch>true</TerminalCommandCharSwitch>
+            <DecimalCharacter>,</DecimalCharacter>
+            <FormatSpecify>true</FormatSpecify>
+            <InputAssignCharacter>=</InputAssignCharacter>
+            <InputDelimiterCharacter>/</InputDelimiterCharacter>
+            <LineSize>80</LineSize>
+            <ProcessingLoopLimit>99999999</ProcessingLoopLimit>
+            <PageSize>23</PageSize>
+            <SpacingFactor>1</SpacingFactor>
+            <StructuredMode>false</StructuredMode>
+            <LibraryPrivateMode>false</LibraryPrivateMode>
+        </NatsecLibrary>
         <NatsecLibrary>
             <NatsecLibraryName>NTDEVOPS</NatsecLibraryName>
             <TerminalCommandChar>%</TerminalCommandChar>
@@ -73,7 +114,7 @@
             <PageSize>23</PageSize>
             <SpacingFactor>1</SpacingFactor>
             <StructuredMode>false</StructuredMode>
-            <LibraryPrivateMode>true</LibraryPrivateMode>
+            <LibraryPrivateMode>false</LibraryPrivateMode>
         </NatsecLibrary>
     </NatsecRuntimeProfileLibrary>
     <AivVariables/>
