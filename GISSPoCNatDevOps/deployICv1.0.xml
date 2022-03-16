@@ -60,7 +60,8 @@
     <property name="natural.ant.deploy.upload.sysobjh.library" value="WORKPLAN" />
     <property name="natural.ant.server.port" value="10112" />
     <property name="natural.ant.project.steplib.nsv" value="" />
-    <property name="natural.ant.server.username" value="SILONE" />
+
+  	<property name="natural.ant.server.username" value="SILONE" />
     <property name="natural.ant.server.password" value="kMmTIt9M4OU=" />
 <!--
     <property name="natural.ant.server.username" value="SILDBA" />
