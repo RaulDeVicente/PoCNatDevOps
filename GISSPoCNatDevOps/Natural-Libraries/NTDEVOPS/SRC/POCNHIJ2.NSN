@@ -12,7 +12,7 @@ LOCAL
 *
 END-DEFINE
 *
-RESULTADO := SUMATORIO-1 + SUMATORIO-2
+RESULTADO := SUMATORIO-1 + SUMATORIO-2 + 1
 *
 ** Acceso a una BBDD para que salga en el TPAI.
 *
