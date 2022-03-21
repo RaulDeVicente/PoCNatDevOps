@@ -19,15 +19,15 @@
     <!-- Property logic: DO NOT EDIT NOR REMOVE -->
     <!-- ### ANT_DEPLOY_PROPERTIES_START ### -->
     <property environment="env"/>
-    <property name="natural.testing.ant.rpcpwd" value="YbPA4c3uyogV3G7n1+pwrw" />
+    <property name="natural.testing.ant.rpcpwd" value="zr7HrKJhjZ2sx4hmrm12Tg" />
     <property name="natural.testing.ant.file.name" value="unitTest914.xml" />
     <property name="natural.ant.project.rootdir" value="." />
     <property name="natural.testing.ant.logon" value="YES" />
-    <property name="natural.ant.project.steplibs" value="NTDEVOPS;SYSTEM;SYSTEM;_" />
+    <property name="natural.ant.project.steplibs" value="ACSILTGA;ASSILTGA;CSSILSYS;SYSTEM;SYSEXT;SYSTEM;_ASSILTGA;CSSILSYS;SYSTEM;SYSIDL;SYSRPC;SYSLIBS;SYSTEM;_NTDEVOPS;SYSTEM;SYSTEM;_" />
     <property name="natural.ant.project.name" value="GISSPoCNatDevOps" />
     <property name="natural.ant.failonerror" value="NO" />
     <property name="natural.ant.repository.password" value="" />
-    <property name="natural.testing.ant.exxpwd" value="YbPA4c3uyogV3G7n1+pwrw" />
+    <property name="natural.testing.ant.exxpwd" value="zr7HrKJhjZ2sx4hmrm12Tg" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.testing.ant.rpcenvname" value="Natural RPC Server (Proxys)" />
     <property name="natural.testing.ant.rpcuid" value="SGU2142" />
