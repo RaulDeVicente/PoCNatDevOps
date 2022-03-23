@@ -12,7 +12,7 @@ LOCAL
 *
 END-DEFINE
 *
-RESULTADO := MINUENDO - SUSTRAENDO
+RESULTADO := MINUENDO - SUSTRAENDO - 1
 *
 ** Acceso a una BBDD para que salga en el TPAI.
 *
