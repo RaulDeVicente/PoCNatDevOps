@@ -6,7 +6,7 @@ DEFINE DATA PARAMETER
 /** New Parameter Data Area POCQHIJ1.
 /**
 /** :INFR_TIPO_MODULO PARAM-NEGOCIO
-/**
+/** 
 1 POCQHIJ1-E /* in      /** :in Parámetros de entrada.
     2 SUMATORIO-1 (N5) /** :in Número de entrada 1.
     2 SUMATORIO-2 (N5) /** :in Número de entrada 2.
