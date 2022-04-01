@@ -4,6 +4,7 @@
 * <Natural Source Header
 /** New Subprogram POCNHIJ2.
 /** Suma 2 sumatorios recibidos por parámetro.
+/**
 DEFINE DATA
 PARAMETER USING POCQHIJ2
 LOCAL
