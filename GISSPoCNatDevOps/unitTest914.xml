@@ -19,7 +19,7 @@
     <!-- Property logic: DO NOT EDIT NOR REMOVE -->
     <!-- ### ANT_DEPLOY_PROPERTIES_START ### -->
     <property environment="env"/>
-    <property name="natural.testing.ant.rpcpwd" value="zr7HrKJhjZ2sx4hmrm12Tg" />
+    <property name="natural.testing.ant.rpcpwd" value="" />
     <property name="natural.testing.ant.file.name" value="unitTest914.xml" />
     <property name="natural.ant.project.rootdir" value="." />
     <property name="natural.testing.ant.logon" value="YES" />
@@ -27,18 +27,18 @@
     <property name="natural.ant.project.name" value="GISSPoCNatDevOps" />
     <property name="natural.ant.failonerror" value="NO" />
     <property name="natural.ant.repository.password" value="" />
-    <property name="natural.testing.ant.exxpwd" value="zr7HrKJhjZ2sx4hmrm12Tg" />
+    <property name="natural.testing.ant.exxpwd" value="" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.testing.ant.rpcenvname" value="Natural RPC Server (Proxys)" />
-    <property name="natural.testing.ant.rpcuid" value="SGU2142" />
-    <property name="natural.testing.ant.brokerid" value="ETB038.99g.giss.ss:10100" />
-    <property name="natural.testing.ant.exxuid" value="SGU2142" />
+    <property name="natural.testing.ant.rpcuid" value="" />
+    <property name="natural.testing.ant.brokerid" value="" />
+    <property name="natural.testing.ant.exxuid" value="" />
     <property name="natural.ant.project.password.encryption" value="YES" />
     <property name="natural.ant.repository.url" value="https://github.com/RaulDeVicente/PoCNatDevOps.git" />
     <property name="NaturalTestingJunitLogger.file" value="logUnitTest.xml" />
     <property name="natural.ant.repository.module" value="GISSPoCNatDevOps" />
     <property name="natural.ant.repository.version" value="main" />
-    <property name="natural.testing.ant.srvaddr" value="RPC/NTSILTGA/CALLNAT" />
+    <property name="natural.testing.ant.srvaddr" value="" />
     <property name="natural.ant.repository.type" value="GIT" />
     <property name="natural.ant.repository.username" value="" />
     <property name="natural.testing.ant.writehistory" value="YES" />
