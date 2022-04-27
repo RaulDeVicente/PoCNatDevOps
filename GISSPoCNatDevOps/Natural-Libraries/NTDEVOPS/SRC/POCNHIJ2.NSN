@@ -15,9 +15,9 @@ LOCAL
 END-DEFINE
 *
 *
-RESULTADO := SUMATORIO-1 + SUMATORIO-2
+RESULTADO := SUMATORIO-1 + SUMATORIO-2 + 1
 *
-** Acceso a una BBDD para que salga en el TPAI.
+** Acceso a una BBDD para que salga en MONADA.
 *
 IF RESULTADO > 50
   FOR CONTADOR = 1 TO 20
@@ -26,7 +26,5 @@ IF RESULTADO > 50
     END-READ
   END-FOR
 END-IF
-*
-** Cambiado.
 *
 END
