@@ -2,12 +2,15 @@
 * :Mode S
 * :CP
 * <Natural Source Header
-* MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 9.1.1 ---
+* MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 9.1.4 ---
 * INPUT USING MAP 'XXXXXXXX'
-*     #PROGRAMA M-MINUENDO M-MULTIPLICADOR M-OPERACION M-RESULTADO-RES
-*     M-RESULTADO-SUM M-SUMATORIO-1 M-SUMATORIO-2 M-SUSTRAENDO
+*     #PROGRAMA M-COCIENTE M-DIVIDENDO M-DIVISOR M-MINUENDO M-MULTIPLICADOR
+*     M-OPERACION M-RESULTADO-RES M-RESULTADO-SUM M-SUMATORIO-1 M-SUMATORIO-2 M-SUSTRAENDO
 DEFINE DATA PARAMETER
 1 #PROGRAMA (A008)
+1 M-COCIENTE (N05,3)
+1 M-DIVIDENDO (N05,0)
+1 M-DIVISOR (N05,0)
 1 M-MINUENDO (N05,0)
 1 M-MULTIPLICADOR (N02,0)
 1 M-OPERACION (A001)
@@ -49,62 +52,105 @@ INPUT          (     IP=OFF                                           /*
 /
  004T '-' (028)
 /
-/
  013T '¿Qué operación desea ejecutar?'
  044T M-OPERACION /*.99U001 A001 .
       (AD=MDT )
 /
 /
- 006T 'Operacion 1'
- 046T 'Operacion 2'
+ 001T 'Operacion 1'
+ 026T '|'
+ 029T 'Operacion 2'
+ 054T '|'
+ 057T 'Operacion 3'
 /
- 006T '-' (028)
- 046T '-' (028)
+ 001T '-' (023)
+ 026T '|'
+ 029T '-' (023)
+ 054T '|'
+ 057T '-' (023)
 /
- 006T 'Sumatorio 1:'
- 027T M-SUMATORIO-1 /*.99U005 N05,0.
+ 001T 'Sumatorio 1:'
+ 017T M-SUMATORIO-1 /*.99U005 N05,0.
       (AD=MDRT )
- 033T '+'
+ 023T '+'
+ 026T '|'
+ 054T '|'
 /
- 006T 'Sumatorio 2:'
- 027T M-SUMATORIO-2 /*.99U005 N05,0.
+ 001T 'Sumatorio 2:'
+ 017T M-SUMATORIO-2 /*.99U005 N05,0.
       (AD=MDRT )
- 033T '*'
- 046T 'Minuendo:'
- 067T M-MINUENDO /*.99U005 N05,0.
+ 023T '*'
+ 026T '|'
+ 029T 'Minuendo:'
+ 045T M-MINUENDO /*.99U005 N05,0.
       (AD=MDRT )
- 073T '-'
+ 051T '-'
+ 054T '|'
+ 057T 'Dividendo:'
+ 073T M-DIVIDENDO /*.99U005 N05,0.
+      (AD=MDRT )
+ 079T '-'
 /
- 006T 'Multiplicador:'
- 030T M-MULTIPLICADOR /*.99U002 N02,0.
+ 001T 'Multiplicador:'
+ 020T M-MULTIPLICADOR /*.99U002 N02,0.
       (AD=MDRT )
- 046T 'Sustraendo:'
- 067T M-SUSTRAENDO /*.99U005 N05,0.
+ 026T '|'
+ 029T 'Sustraendo:'
+ 045T M-SUSTRAENDO /*.99U005 N05,0.
+      (AD=MDRT )
+ 054T '|'
+ 057T 'Divisor:'
+ 073T M-DIVISOR /*.99U005 N05,0.
       (AD=MDRT )
 /
- 006T '-' (026)
- 033T '='
- 046T '-' (026)
- 073T '='
+ 001T '-' (021)
+ 023T '='
+ 026T '|'
+ 029T '-' (021)
+ 051T '='
+ 054T '|'
+ 057T '-' (021)
+ 079T '='
 /
- 006T 'Resultado:'
- 022T M-RESULTADO-SUM /*.01U010 N10,0.
+ 001T 'Resultado:'
+ 012T M-RESULTADO-SUM /*.01U010 N10,0.
       (AD=ODR )
- 046T 'Resultado:'
- 062T M-RESULTADO-RES /*.01U010 N10,0.
+ 026T '|'
+ 029T 'Resultado:'
+ 040T M-RESULTADO-RES /*.01U010 N10,0.
+      (AD=ODR )
+ 054T '|'
+ 057T 'Cociente:'
+ 069T M-COCIENTE /*.01U009 N05,3.
       (AD=ODR )
 /
- 006T '-' (028)
- 046T '-' (028)
+ 001T '-' (023)
+ 026T '|'
+ 029T '-' (023)
+ 054T '|'
+ 057T '-' (023)
 /
- 006T 'Si la suma de los sumatorios'
- 046T 'Si el resultado es mayor de'
+ 001T 'Si la suma de los'
+ 026T '|'
+ 029T 'Si el resultado es'
+ 054T '|'
+ 057T 'Si el cociente es mayor'
 /
- 006T 'es superior a 50, accede a'
- 046T '10, accede a la BBDD con un'
+ 001T 'sumatorios es superior'
+ 026T '|'
+ 029T 'mayor de 10, accede a'
+ 054T '|'
+ 057T 'mayor de 5, accede a_'
 /
- 006T 'la BBDD con un READ.'
- 046T 'FIND.'
+ 001T 'a 50, se accede a la'
+ 026T '|'
+ 029T 'la BBDD con un FIND.'
+ 054T '|'
+ 057T 'la BBDD con un FIND.'
+/
+ 001T 'BBDD con un READ.'
+ 026T '|'
+ 054T '|'
 /
 /
  015T 'PF2'(I)
