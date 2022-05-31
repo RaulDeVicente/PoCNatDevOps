@@ -38,6 +38,7 @@ LOCAL
     /*
 END-DEFINE
 *
+*
 SET KEY PF2 PF3
 MOVE *PROGRAM TO #PROGRAMA
 ** Cambio para que suba el programa.
